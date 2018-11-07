@@ -1,0 +1,48 @@
+Body {
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+td p {
+    margin: 5px;
+    font-style: italic;
+    color: blue;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.flex-element {
+    flex-basis: 200px;
+}
+
+#customerData {
+    padding-left: 500px;
+    width: 500px;
+}
+
+#Table{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    opacity: 0.9;
+}
+.movie{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
