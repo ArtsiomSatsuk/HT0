@@ -77,13 +77,13 @@ public class FileHandler {
             } else {
                 artist = mp3file.getId3v1Tag().getArtist();
             }
-            if (album.matches("\\s+") || album.matches("")) {
+            if (album.matches("\\s*")) {
                 album = "Unknown album";
             }
-            if (artist.matches("\\s+") || artist.matches("")) {
+            if (artist.matches("\\s*")) {
                 artist = "UNKNOWN ARTIST";
             }
-            if (title.matches("\\s+") || title.matches("")) {
+            if (title.matches("\\s*")) {
                 title = "Unknown title";
             }
 
